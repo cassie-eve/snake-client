@@ -23,8 +23,6 @@ const connect = function () {
     console.log(`Successfully connected to game server.`);
   });
 
-
-
   return conn;
 };
 
