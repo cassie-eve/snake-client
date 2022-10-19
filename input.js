@@ -1,7 +1,7 @@
 // setup interface to handle user input from stdin
 let connection;
 
-const setupInput = function (conn) {
+const setupInput = function(conn) {
   connection = conn;
   const stdin = process.stdin;
   stdin.setRawMode(true);
@@ -14,10 +14,9 @@ const setupInput = function (conn) {
 // some canned phrases
 const hello = `Hello!`;
 const friends = `Hey friends!`;
-const fun = `What fun!`
+const fun = `What fun!`;
 
-const handleUserInput = function (data) {
-  const stdin = process.stdin;
+const handleUserInput = function(data) {
   // if player clicks ctrl-c, game should exit
   if (data === '\x03') {
     process.exit();
