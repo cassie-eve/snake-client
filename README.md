@@ -8,8 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["screenshot description"](#)
-!["screenshot description"](#)
+![snake gam in action!](https://user-images.githubusercontent.com/44046763/196591908-b80ca663-61c2-47a5-8f39-d6b21855c214.png)
 
 ## Getting Started
 
