@@ -13,13 +13,13 @@ const connect = function () {
 
   conn.on("connect", () => {
     conn.write(`Name: ${NAME}`);
-    // conn.write('Move: up');
   });
 
   conn.on("data", (data) => {
     console.log(data);
   });
 
+  //what we should see once the client connects to the server
   conn.on("connect", () => {
     console.log(`Successfully connected to game server.`);
   });
